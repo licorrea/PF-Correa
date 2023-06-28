@@ -13,6 +13,14 @@
       type="image/x-icon"
     />
 
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css" />
   </head>
@@ -20,75 +28,99 @@
   <body>
     <!-- Header -->
     <header>
-      <figure class="header__logo">
-        <img src="../imagenes/logoppal3.png" alt="Logo" />
-      </figure>
-      <nav>
-        <ul class="header__nav">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="cafeteria.html">Cafeteria</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="viandas.html">Viandas</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img class="nav-logo" src="../imagenes/logomobile.png" alt="Logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="3rem"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+              />
+            </svg>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cafeteria.html">CAFETERIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./viandas.html">VIANDAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <!-- Main -->
     <main>
-      <section>
-        <h2>¡Comer rico y sano nunca fue tán fácil!</h2>
-        <p>
+      <section class="section__ppal">
+        <h2 class="titulo__ppal">¡Comer rico y sano nunca fue tán fácil!</h2>
+        <p class="parrafo__ppal">
           Con nuestro servicio de viandas saludables, te ofrecemos la solución
           más práctica y rápida para hacer tu día a día más fácil. Las
           entregamos listas solo para calentar en horno o microondas.
         </p>
       </section>
-      <section>
-        <h2>¿Por qué elegirnos?</h2>
-        <div>
-          <h3>Nuestros sabores</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            nobis esse officia. Sit porro debitis repellat molestiae, delectus,
-            adipisci culpa nemo a dignissimos odio expedita tempora fugit
-            perspiciatis quos consequatur.
-          </p>
-        </div>
-        <div>
-          <h3>Calidad al mejor precio</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            nobis esse officia. Sit porro debitis repellat molestiae, delectus,
-            adipisci culpa nemo a dignissimos odio expedita tempora fugit
-            perspiciatis quos consequatur.
-          </p>
-        </div>
-        <div>
-          <h3>Comida saludable</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            nobis esse officia. Sit porro debitis repellat molestiae, delectus,
-            adipisci culpa nemo a dignissimos odio expedita tempora fugit
-            perspiciatis quos consequatur.
-          </p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <img src="../imagenes/fotoej.png" alt="" />
-        </div>
-        <div>
-          <img src="../imagenes/fotoej.png" alt="" />
-        </div>
-        <div>
-          <img src="../imagenes/fotoej.png" alt="" />
-        </div>
-        <div>
-          <img src="../imagenes/fotoej.png" alt="" />
-        </div>
-        <div>
-          <img src="../imagenes/fotoej.png" alt="" />
+      <section class="section__preguntas">
+        <h2 class="titulo__ppal">¿Por qué elegirnos?</h2>
+        <div class="box__ppal">
+          <div class="pregunta">
+            <h3 class="titulo__pregunta">Nuestros sabores</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque nobis esse officia. Sit porro debitis repellat
+              molestiae, delectus, adipisci culpa nemo a dignissimos odio
+              expedita tempora fugit perspiciatis quos consequatur.
+            </p>
+          </div>
+          <div class="pregunta">
+            <h3 class="titulo__pregunta">Calidad al mejor precio</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque nobis esse officia. Sit porro debitis repellat
+              molestiae, delectus, adipisci culpa nemo a dignissimos odio
+              expedita tempora fugit perspiciatis quos consequatur.
+            </p>
+          </div>
+          <div class="pregunta">
+            <h3 class="titulo__pregunta">Comida saludable</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque nobis esse officia. Sit porro debitis repellat
+              molestiae, delectus, adipisci culpa nemo a dignissimos odio
+              expedita tempora fugit perspiciatis quos consequatur.
+            </p>
+          </div>
         </div>
       </section>
     </main>
@@ -111,5 +143,11 @@
         Copyright 2023 - Derechos reservados - ESPONTANEO
       </h3>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

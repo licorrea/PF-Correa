@@ -155,6 +155,16 @@ header {
 
 /*-------------------------------------------------------------------------------*/
 
+/*MAIN-MENU* ---------------------------------------------------------MAIN-MENU*/
+
+.titulo__menu {
+  text-align: center;
+}
+
+.lista__menu {
+  text-align: center;
+}
+
 /*FOOTER*/
 footer {
   grid-area: footer;
@@ -191,7 +201,8 @@ footer {
 @media (min-width: 992px) {
   /*Estilos Generales*/
   main {
-    background-image: url(../imagenes/fondo3.png);
+    background-image: linear-gradient(rgba 0, 0, 0, 0.3),
+      url(../imagenes/fondo3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

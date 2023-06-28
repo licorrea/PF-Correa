@@ -155,6 +155,56 @@ header {
 
 /*-------------------------------------------------------------------------------*/
 
+/*MAIN-MENU* ---------------------------------------------------------MAIN-MENU*/
+
+.titulo__menu {
+  text-align: center;
+  margin-top: 2rem;
+  color: #cc9544;
+}
+
+.lista__menu {
+  text-align: center;
+  margin-right: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*MAIN-VIANDAS* ---------------------------------------------------------MAIN-VIANDAS*/
+
+.titulo__ppal {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.parrafo__ppal {
+  padding: 1rem;
+  text-align: center;
+}
+
+.box__ppal {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pregunta {
+  padding: 1rem;
+  max-width: 30rem;
+  border: #040303 solid;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  border-radius: 2rem;
+  background-color: rgba(204, 149, 68, 0.4);
+  text-align: center;
+}
+
 /*FOOTER*/
 footer {
   grid-area: footer;
