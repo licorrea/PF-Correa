@@ -241,7 +241,7 @@ footer {
 @media (min-width: 992px) {
   /*Estilos Generales*/
   main {
-    background-image: url(../imagenes/fondo3.png);
+    background-image: linear-gradient(rgba 0, 0, 0, 0.3), url(../img/fondo3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
