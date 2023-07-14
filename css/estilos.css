@@ -463,6 +463,51 @@ footer {
     align-items: center;
   }
 
+  /*MEDIA QUERIES MENU*/
+
+  .section__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+
+  .cafeteria {
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: #fffbe9;
+    font-weight: bold;
+  }
+
+  .bebidas {
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #fffbe9;
+    font-weight: bold;
+  }
+
+  .dulces {
+    text-align: center;
+    margin-top: 2rem;
+    color: #fffbe9;
+    font-weight: bold;
+  }
+
+  .desayunos {
+    text-align: center;
+    margin-top: 2rem;
+    color: #fffbe9;
+    font-weight: bold;
+    max-width: 30rem;
+    margin-left: 1rem;
+  }
+
   /*MEDIA QUERIES CONTACTO*/
 
   .titulo__contacto {
