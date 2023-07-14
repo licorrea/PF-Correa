@@ -296,7 +296,8 @@ footer {
 @media (min-width: 992px) {
   /*Estilos Generales*/
   body {
-    background-image: url(../img/fondo3.png);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)),
+      url(../img/fondo3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -386,8 +387,17 @@ footer {
   /*MEDIA QUERIES CAFETERIA*/
   /*Section 1*/
 
+  main {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)),
+      url(../img/fondo3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .titulo__uno {
     text-align: center;
+    margin-top: 4rem;
     margin-bottom: 0;
     color: #fffbe9;
   }
@@ -397,7 +407,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
-    min-height: 100vh;
+
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -419,21 +429,24 @@ footer {
   }
 
   /*Section 2*/
+
   .section__dos {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2rem;
   }
 
   .titulo__dos {
     text-align: left;
     margin-left: 15rem;
     color: #fffbe9;
+    margin-top: 8rem;
   }
 
   .parrafo__central {
     max-width: 35rem;
-    color: #fffbe9;
+    color: #cc9544;
   }
 
   .img__abajo {
@@ -448,12 +461,20 @@ footer {
     align-items: first baseline;
     justify-content: left;
     margin-bottom: 3rem;
+    color: black;
+  }
+
+  .titulo__ppal {
+    color: black;
+    margin-top: 2rem;
   }
 
   .titulo__eleccion {
+    margin-top: 6rem;
     margin-left: 8rem;
     display: flex;
     justify-content: flex-start;
+    color: black;
   }
 
   .parrafo__ppal {
@@ -499,13 +520,13 @@ footer {
     font-weight: bold;
   }
 
-  .desayunos {
-    text-align: center;
+  .desayunos,
+  .almuerzos {
+    text-align: justify;
     margin-top: 2rem;
     color: #fffbe9;
     font-weight: bold;
     max-width: 30rem;
-    margin-left: 1rem;
   }
 
   /*MEDIA QUERIES CONTACTO*/
@@ -513,14 +534,16 @@ footer {
   .titulo__contacto {
     margin-left: 32rem;
     padding-top: 2rem;
+    color: black;
   }
 
   .section__visitas {
     display: flex;
     justify-content: flex-start;
     margin-top: 4rem;
-    color: #cc9544;
-    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #fffbe9;
+    font-weight: bold;
   }
 
   .mapa {
@@ -528,7 +551,6 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     margin-right: 2rem;
-
     height: 23rem;
   }
 }
