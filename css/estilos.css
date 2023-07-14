@@ -72,6 +72,14 @@ header {
 }
 
 /*MAIN-INDEX* ---------------------------------------------------------MAIN-INDEX*/
+
+.titulo__inicio {
+  text-align: center;
+  color: #040303;
+
+  margin-top: 2rem;
+}
+
 .parrafo__index {
   max-width: 80%;
   text-align: justify;
@@ -205,6 +213,53 @@ li {
   text-align: center;
 }
 
+/*-------------------------------------------------------------------------------*/
+
+/*MAIN-CONTACTO* ---------------------------------------------------------MAIN-CONTACTO*/
+
+.titulo__recompensa {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.titulo__datos {
+  text-align: center;
+  font-size: 1rem;
+}
+
+form {
+  background-color: #cc9544;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding: 2rem;
+  width: 25rem;
+  border-radius: 3rem;
+}
+
+.titulo__visita {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.horarios {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+iframe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  height: 24rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
 /*FOOTER*/
 footer {
   grid-area: footer;
@@ -240,7 +295,7 @@ footer {
 
 @media (min-width: 992px) {
   /*Estilos Generales*/
-  main {
+  body {
     background-image: url(../img/fondo3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -383,5 +438,52 @@ footer {
 
   .img__abajo {
     margin-right: 5rem;
+  }
+
+  /*MEDIA QUERIES VIANDAS*/
+
+  .box__ppal {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: left;
+    margin-bottom: 3rem;
+  }
+
+  .titulo__eleccion {
+    margin-left: 8rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .parrafo__ppal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  /*MEDIA QUERIES CONTACTO*/
+
+  .titulo__contacto {
+    margin-left: 32rem;
+    padding-top: 2rem;
+  }
+
+  .section__visitas {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4rem;
+    color: #cc9544;
+    font-size: 1.5rem;
+  }
+
+  .mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 2rem;
+
+    height: 23rem;
   }
 }
