@@ -184,7 +184,8 @@ li {
 
 /*MAIN-VIANDAS* ---------------------------------------------------------MAIN-VIANDAS*/
 
-.titulo__ppal {
+.titulo__ppal,
+.titulo__eleccion {
   margin-top: 2rem;
   text-align: center;
 }
@@ -204,7 +205,6 @@ li {
 .pregunta {
   padding: 1rem;
   max-width: 30rem;
-  border: #040303 solid;
   margin-top: 1rem;
   margin-left: 2rem;
   margin-right: 1rem;
@@ -355,6 +355,12 @@ footer {
 
   /*MEDIA QUERIES INDEX*/
 
+  .titulo__inicio {
+    color: #fffbe9;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+
   .section__index {
     display: flex;
     flex-direction: column;
@@ -399,7 +405,8 @@ footer {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 0;
-    color: #fffbe9;
+    color: #cc9544;
+    font-weight: bold;
   }
 
   .section__uno {
@@ -416,6 +423,7 @@ footer {
   .parrafo__chico {
     max-width: 30rem;
     color: #fffbe9;
+    font-weight: bold;
     margin-top: 2rem;
   }
 
@@ -439,14 +447,16 @@ footer {
 
   .titulo__dos {
     text-align: left;
-    margin-left: 15rem;
-    color: #fffbe9;
+    margin-left: 1rem;
+    color: #cc9544;
     margin-top: 8rem;
+    font-weight: bold;
   }
 
   .parrafo__central {
     max-width: 35rem;
-    color: #cc9544;
+    color: #fffbe9;
+    font-weight: bold;
   }
 
   .img__abajo {
@@ -461,11 +471,11 @@ footer {
     align-items: first baseline;
     justify-content: left;
     margin-bottom: 3rem;
-    color: black;
+    color: #f3deba;
   }
 
   .titulo__ppal {
-    color: black;
+    color: #fffbe9;
     margin-top: 2rem;
   }
 
@@ -474,7 +484,7 @@ footer {
     margin-left: 8rem;
     display: flex;
     justify-content: flex-start;
-    color: black;
+    color: #fffbe9;
   }
 
   .parrafo__ppal {
@@ -534,7 +544,7 @@ footer {
   .titulo__contacto {
     margin-left: 32rem;
     padding-top: 2rem;
-    color: black;
+    color: #fffbe9;
   }
 
   .section__visitas {
