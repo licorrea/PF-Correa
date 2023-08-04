@@ -154,6 +154,8 @@ header .navbar-toggler:focus {
   text-align: center;
 }
 
+/*-------------------------------------------------------------------------------*/
+
 /*FOOTER*/
 footer {
   grid-area: footer;
@@ -186,7 +188,8 @@ footer .footer__redes {
 @media (min-width: 992px) {
   /*Estilos Generales*/
   main {
-    background-image: linear-gradient(rgba 0, 0, 0, 0.3), url(../imagenes/fondo3.png);
+    background-image: linear-gradient(rgba 0, 0, 0, 0.3),
+      url(../imagenes/fondo3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

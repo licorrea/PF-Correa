@@ -237,6 +237,23 @@ form {
   border-radius: 3rem;
 }
 
+label {
+  display: block;
+}
+
+option {
+  padding: 1rem;
+}
+
+.entradas {
+  width: 10rem;
+}
+
+.enviar {
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
 .titulo__visita {
   text-align: center;
   margin-top: 2rem;

@@ -95,7 +95,12 @@
         <form action="">
           <p>
             <label for="nombres">Nombre y Apellido:</label>
-            <input type="text" name="nombres" placeholder="Juan Perez" />
+            <input
+              class="entradas"
+              type="text"
+              name="nombres"
+              placeholder="Juan Perez"
+            />
           </p>
           <p>
             <label for="fechadenacimiento">Fecha de Nacimiento:</label>
@@ -111,13 +116,18 @@
           </p>
           <p>
             <label for="telefono">Número de teléfono:</label>
-            <input type="text" name="telefono" placeholder="+5491100000000" />
+            <input
+              class="entradas"
+              type="text"
+              name="telefono"
+              placeholder="+5491100000000"
+            />
           </p>
 
           <p>
             ¿Cuál es tu área de interés?
 
-            <select name="interes" id="interes">
+            <select class="entradas" name="interes" id="interes">
               <option value="cafeteria">Cafetería</option>
               <option value="viandas">Viandas</option>
               <option value="congelados">Productos congelados</option>
@@ -142,8 +152,8 @@
             ></textarea>
           </p>
           <div>
-            <input type="submit" value="Enviar" />
-            <input type="submit" value="Borrar" />
+            <input class="enviar" type="submit" value="Enviar" />
+            <input class="enviar" type="submit" value="Borrar" />
           </div>
         </form>
       </section>
