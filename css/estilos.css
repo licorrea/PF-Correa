@@ -265,16 +265,17 @@ option {
   margin-top: 2rem;
 }
 
-iframe {
+.mapa iframe {
+  width: 24rem;
+  height: 24rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 24rem;
-  height: 24rem;
   margin-top: 2rem;
   margin-left: 2rem;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 /*FOOTER*/
